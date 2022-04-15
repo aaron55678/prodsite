@@ -1,0 +1,27 @@
+.logo-name{
+    text-align: center;
+}
+
+.logo-instagram:hover {
+    color: #517fa4;
+    transition: color 0.2s;
+    border-bottom: 2px solid #2ecc71;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.logo-twitter:hover {
+    color: #517fa4;
+    transition: color 0.2s;
+    border-bottom: 2px solid #2ecc71;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.logo-facebook:hover {
+    color: #517fa4;
+    transition: color 0.2s;
+    border-bottom: 2px solid #2ecc71;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
