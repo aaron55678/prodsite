@@ -19,14 +19,14 @@ const Nav = () => {
                 <AppBar position="static" color="transparent" elevation={0}>
                     <Toolbar>
                         <Box sx={{ flexGrow: 1 }}>
-                            <Typography>NEED TO FUCK WITH THIS BAR STILL - VERY UGLY</Typography>
+                            <Typography color="white" >Dont know what else to add here - if anything</Typography>
                         </Box>
                             <a target='_blank' href="https://twitter.com/donaldtrump"> 
                             <TwitterIcon 
                                 className='logo-twitter'
                                 fontSize="large"
                                 edge="start"
-                                color="inherit"
+                                color="primary"
                                 aria-label="menu"
                                 sx={{ mr: 2 }}
                             />
@@ -36,7 +36,7 @@ const Nav = () => {
                                 className='logo-facebook'
                                 fontSize="large"
                                 edge="start"
-                                color="inherit"
+                                color="primary"
                                 aria-label="menu"
                                 sx={{ mr: 2 }}
                             />
@@ -46,7 +46,7 @@ const Nav = () => {
                                 className='logo-instagram'
                                 fontSize="large"
                                 edge="start"
-                                color="inherit"
+                                color="primary"
                                 aria-label="menu"
                                 sx={{ mr: 2 }}
                             />
