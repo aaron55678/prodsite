@@ -9,14 +9,16 @@ const Herotext = () => {
     
     return (
         <div className='Herotext'>
-            <h1 className='Herotext_h1'>Let's play<br /># of Golfers</h1>
+            <h1 className='Herotext_h1'>tag line<br />Add a player to start</h1>
             <div className='Herotext_buttongroup'>            
-                <ButtonGroup variant="contained" color="primary" size="large" aria-label="outlined primary button group">
+                {/* <ButtonGroup variant="contained" color="primary" size="large" aria-label="outlined primary button group">
                     <Button>1</Button>
                     <Button>2</Button>
                     <Button>3</Button>
                     <Button>4</Button>
-                </ButtonGroup>
+                </ButtonGroup> */}
+                <Button variant='contained' color='primary' size='large'>Add Player</Button>
+
             </div>
         </div>
     );
