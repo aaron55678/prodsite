@@ -5,6 +5,7 @@ import AddPlayer from "./components/players/AddPlayer";
 import Players from "./components/players/Players";
 import WrappedMap from "./components/outputs/Map";
 import OutputOptions from "./components/outputs/OutputOptions";
+import Courseinfo from "./components/courseinfo/Courseinfo";
 // import { margin, positions } from "@mui/system";
 
 
@@ -85,17 +86,23 @@ const App = () => {
         onSearchStatusChange={searchStatusChangeHandler}
       />
       <OutputOptions />
-      <div style={{width: '75vw', height: '50vh'}}>
-        <WrappedMap
- //found in outputs/Map file
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&`}//key=${process.env.REACT_APP_GOOGLE_MAP}`}
-          loadingElement={<div style={{height: '100%'}}/>}
-          containerElement={<div style={{height: '100%'}}/>}
-          mapElement={<div style={{height: '100%'}}/>}
-          players={addedPlayer}
-          submitStatus={submitStatus}
-          onSubmitUpdate={onSubmitUpdateHandler}
-        />
+      <div className='map-section' >
+        <div className='map-section-wrappedmap'>
+          <WrappedMap
+            //found in outputs/Map file
+            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&`}//key=${process.env.REACT_APP_GOOGLE_MAP}`}
+            loadingElement={<div style={{height: '100%'}}/>}
+            containerElement={<div style={{height: '100%'}}/>}
+            mapElement={<div style={{height: '100%'}}/>}
+            players={addedPlayer}
+            submitStatus={submitStatus}
+            onSubmitUpdate={onSubmitUpdateHandler}
+          />   
+        </div>
+        <div className='map-section-courseinfo'>
+          <Courseinfo />
+        </div>    
+        
       </div>
       
         
