@@ -76,7 +76,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <AddPlayer onPlayerStatusChange={playerStatusChangeHandler} />
+        <AddPlayer onPlayerStatusChange={playerStatusChangeHandler} />
       <Players
         players={addedPlayer}
         onDeletedPlayerChange={deletedPlayerChangeHandler}
