@@ -2,7 +2,7 @@ import React from 'react';
 import './Map.css';
 import { GoogleMap, withScriptjs, withGoogleMap, Marker,} from 'react-google-maps';
 
-const postcodes = require('node-postcodes.io')
+// const postcodes = require('node-postcodes.io')
 
 //dummy pplayer location data
 

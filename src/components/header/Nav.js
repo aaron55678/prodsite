@@ -20,7 +20,7 @@ const Nav = () => {
                         <Box sx={{ flexGrow: 1 }}>
                             <Typography color="white" >Dont know what else to add here - if anything</Typography>
                         </Box>
-                            <a target='_blank' href="https://twitter.com/donaldtrump"> 
+                            <a target='_blank' rel="noreferrer" href="https://twitter.com/donaldtrump"> 
                             <TwitterIcon 
                                 className='logo-twitter'
                                 fontSize="large"
@@ -30,7 +30,7 @@ const Nav = () => {
                                 sx={{ mr: 2 }}
                             />
                             </a>
-                            <a target='_blank' href="https://www.facebook.com/SantaClausOffice/"> 
+                            <a target='_blank' rel="noreferrer" href="https://www.facebook.com/SantaClausOffice/"> 
                             <FacebookIcon 
                                 className='logo-facebook'
                                 fontSize="large"
@@ -40,7 +40,7 @@ const Nav = () => {
                                 sx={{ mr: 2 }}
                             />
                             </a>
-                            <a target='_blank' href="https://www.instagram.com/xingpi37/"> 
+                            <a target='_blank' rel="noreferrer" href="https://www.instagram.com/xingpi37/"> 
                             <InstagramIcon 
                                 className='logo-instagram'
                                 fontSize="large"

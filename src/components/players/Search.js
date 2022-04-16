@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Search.css";
 import { Button } from "@mui/material";
 import GolfCourseIcon from "@mui/icons-material/GolfCourse";

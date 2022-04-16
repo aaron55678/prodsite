@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/53943dd7-c2e5-4a98-aabe-932ca87d778d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/golfbrickprdsite",
+    "appService.deploySubpath": "build"
+}

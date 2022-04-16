@@ -1,6 +1,6 @@
 import React from 'react';
 import './Herotext.css';
-import { Button, ButtonGroup } from '@mui/material';
+import Button from '@mui/material/Button';
 
 // Body text for the header, need to add in the buttons for players here with autoscroll functions.
 // This page needs to cleaning up and screen size adaptions, it's all fixed at the moment so looks a bit shit when resizing browser.
