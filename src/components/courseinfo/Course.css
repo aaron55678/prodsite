@@ -1,0 +1,10 @@
+.Course {
+  background-color: primary;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding-left: 5px;
+    color: #2ecc71;
+    font-size: 80%;
+    word-spacing: 2px;
+    font-weight: 300;
+  }

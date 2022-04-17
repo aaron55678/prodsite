@@ -9,7 +9,8 @@ const Herotext = () => {
     
     return (
         <div className='Herotext'>
-            <h1 className='Herotext_h1'>tag line<br />Add a player to start</h1>
+            <h1 className='Herotext_h1'>Boiler plate caption</h1>
+            <h2 className='Herotext_h2'>call to action</h2>
             <div className='Herotext_buttongroup'>            
                 {/* <ButtonGroup variant="contained" color="primary" size="large" aria-label="outlined primary button group">
                     <Button>1</Button>

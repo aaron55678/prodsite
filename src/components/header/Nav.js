@@ -18,7 +18,7 @@ const Nav = () => {
                 <AppBar position="static" color="transparent" elevation={0}>
                     <Toolbar>
                         <Box sx={{ flexGrow: 1 }}>
-                            <Typography color="white" >Dont know what else to add here - if anything</Typography>
+                            <Typography color="white" >Golfbrick</Typography>
                         </Box>
                             <a target='_blank' rel="noreferrer" href="https://twitter.com/donaldtrump"> 
                             <TwitterIcon 
