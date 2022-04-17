@@ -1,6 +1,6 @@
 .Herotext {
     margin:auto;
-    width: 30%;
+    width: 40%;
     padding-top: 10%;
 }
 
@@ -15,8 +15,20 @@
 
 }
 
+.Herotext_h2 {
+    padding-top: 75px;
+    color: #fff;
+    font-size: 200%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+
+}
+
 .Herotext_buttongroup {
     position:absolute;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-left: 8%;
 }
