@@ -6,6 +6,8 @@ import { GoogleMap, withScriptjs, withGoogleMap, Marker,} from 'react-google-map
 
 //dummy pplayer location data
 
+// https://maps.googleapis.com/maps/api/place/nearbysearch/json?&keyword=golf&location=51.89692%2C-0.7196&radius=10000&key=AIzaSyCotjmH4Kd3kSdnBj4tQ2Jg3nPBEHBnu4U
+
   
 const playerPositions = [
         {
